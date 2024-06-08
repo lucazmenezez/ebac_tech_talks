@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -16,9 +17,74 @@
             <p class="hero__text">
                 O maior evento de tecnologia do Brasil começa em 30d 17h 20min 56s
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo/SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 129,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        01/01/2025
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garantir minha vaga
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequatur in perferendis praesentium dolorem quasi quam eos obcaecati voluptatibus similique molestiae minima quos, maiores vero consectetur, dolores dolorum aspernatur! Recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum, nemo accusantium dolorem odit cupiditate ab quod eveniet ducimus ex facilis aliquam! Tempore voluptatum eos possimus tenetur perspiciatis vero quod?
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Desenvolvimento Front-end">
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UX - UI</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequatur in perferendis praesentium dolorem quasi quam eos obcaecati voluptatibus similique molestiae minima quos, maiores vero consectetur, dolores dolorum aspernatur! Recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum, nemo accusantium dolorem odit cupiditate ab quod eveniet ducimus ex facilis aliquam! Tempore voluptatum eos possimus tenetur perspiciatis vero quod?
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Design UX-UI">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data-Science</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequatur in perferendis praesentium dolorem quasi quam eos obcaecati voluptatibus similique molestiae minima quos, maiores vero consectetur, dolores dolorum aspernatur! Recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum, nemo accusantium dolorem odit cupiditate ab quod eveniet ducimus ex facilis aliquam! Tempore voluptatum eos possimus tenetur perspiciatis vero quod?
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="Data Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates consequatur in perferendis praesentium dolorem quasi quam eos obcaecati voluptatibus similique molestiae minima quos, maiores vero consectetur, dolores dolorum aspernatur! Recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum, nemo accusantium dolorem odit cupiditate ab quod eveniet ducimus ex facilis aliquam! Tempore voluptatum eos possimus tenetur perspiciatis vero quod?
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="Desenvolvimento Backend">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
